@@ -7,6 +7,7 @@ import Lifting from './components/Lifting';
 import Ref from './components/Ref';
 import Memo from './components/Memo';
 import ProductPage from './components/ProductPage';
+import Stopwatch from './components/Stopwatch';
 
 function App() {
   return (
@@ -26,6 +27,8 @@ function App() {
       <Memo/>
       <br/><br/>
       <ProductPage/>
+      <br/><br/>
+      <Stopwatch/>
     </div>
   );
 }
