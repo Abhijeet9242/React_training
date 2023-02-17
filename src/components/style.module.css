@@ -26,3 +26,14 @@
     color:green;
     text-align: center;
 }
+
+/* ------------ */
+
+.todobtn{
+    /* background-color: none; */
+    color:red;
+    margin-left: 10px;
+    background: none;
+    border: none;
+    cursor: pointer;
+}

@@ -8,6 +8,7 @@ import Ref from './components/Ref';
 import Memo from './components/Memo';
 import ProductPage from './components/ProductPage';
 import Stopwatch from './components/Stopwatch';
+import Todo from './components/Todo';
 
 function App() {
   return (
@@ -29,6 +30,8 @@ function App() {
       <ProductPage/>
       <br/><br/>
       <Stopwatch/>
+      <br/><br/>
+      <Todo/>
     </div>
   );
 }
