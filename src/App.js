@@ -4,6 +4,8 @@ import style from "./components/style.module.css"
 import Form1 from './components/Form1';
 import Form2 from './components/Form2';
 import Lifting from './components/Lifting';
+import Ref from './components/Ref';
+import Memo from './components/Memo';
 
 function App() {
   return (
@@ -17,6 +19,10 @@ function App() {
       <Form2/>
       <br/><br/>
       <Lifting/>
+      <br/><br/>
+      <Ref/>
+      <br/><br/>
+      <Memo/>
     </div>
   );
 }
