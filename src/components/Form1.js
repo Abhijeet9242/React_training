@@ -9,12 +9,19 @@ const Form1 = () => {
 
     const handleClick = (e) => {
         e.preventDefault()
-        console.log(name,email,pass)
+
+        const payload = {
+            name:name,
+            email:email,
+            pass:pass
+        }
+
+        console.log(payload)
     }
 
     return(
         <div className={style.div}>
-            <h2 className={style.form1}>Application Form1</h2>
+            <h2 className={style.form}>Application Form1</h2>
             <form className={style.formdiv}>
             <input type="text" placeholder="name" onChange={(e)=>setName(e.target.value)} />
             <br/><br/>
