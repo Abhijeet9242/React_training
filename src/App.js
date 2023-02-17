@@ -6,6 +6,7 @@ import Form2 from './components/Form2';
 import Lifting from './components/Lifting';
 import Ref from './components/Ref';
 import Memo from './components/Memo';
+import ProductPage from './components/ProductPage';
 
 function App() {
   return (
@@ -23,6 +24,8 @@ function App() {
       <Ref/>
       <br/><br/>
       <Memo/>
+      <br/><br/>
+      <ProductPage/>
     </div>
   );
 }
